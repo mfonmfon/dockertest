@@ -4,8 +4,8 @@
 name: Maven Package
 
 env:
-ECR_REPO: service-discovery
-DOCKER_HUB_REPO: mfon566/simpleproject
+ ECR_REPO: service-discovery
+ DOCKER_HUB_REPO: mfon566/simpleproject
 on:
   push:
     branches: ['main']
